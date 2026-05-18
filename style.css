@@ -1,20 +1,78 @@
+/* GRIDLINE Global Theme */
+
 body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #fdfdfd;
+    color: #010101;
 }
 
-.product {
-  border: 1px solid #ccc;
-  padding: 15px;
-  margin-bottom: 20px;
-  border-radius: 8px;
+/* Headings */
+h1, h2, h3 {
+    color: #633734;
+    margin-bottom: 15px;
 }
 
-.btn {
-  display: inline-block;
-  padding: 8px 12px;
-  background: black;
-  color: white;
-  text-decoration: none;
-  border-radius: 4px;
+/* Links */
+a {
+    color: #073053;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ea1a1d;
+}
+
+/* Gallery Grid */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+/* Gallery Item */
+.item {
+    background: #ffffff;
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+    border: 2px solid #01010110;
+    transition: 0.25s;
+}
+
+.item:hover {
+    transform: scale(1.04);
+    border-color: #ea1a1d;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.item-title {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #633734;
+}
+
+/* Item Detail Page */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    border: 2px solid #01010110;
+}
+
+.container img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+p {
+    line-height: 1.6;
 }
