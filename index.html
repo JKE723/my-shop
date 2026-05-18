@@ -2,88 +2,64 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>GRIDLINE – Gallery</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background: #fdfdfd;
-            color: #010101;
-        }
-
-        h1 {
-            text-align: center;
-            margin-bottom: 30px;
-            color: #073053;
-        }
-
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 25px;
-        }
-
-        .item {
-            background: #ffffff;
-            padding: 12px;
-            border-radius: 12px;
-            text-align: center;
-            border: 2px solid #01010110;
-            transition: 0.25s;
-        }
-
-        .item:hover {
-            transform: scale(1.04);
-            border-color: #ea1a1d;
-        }
-
-        .item img {
-            width: 100%;
-            border-radius: 10px;
-        }
-
-        .item-title {
-            margin-top: 10px;
-            font-weight: bold;
-            color: #633734;
-        }
-    </style>
+    <title>GRIDLINE – Modern 3D Printing</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>GRIDLINE – Product Gallery</h1>
+<h1>GRIDLINE – Modern 3D Printing</h1>
 
+<h2>Featured Categories</h2>
+<div class="gallery">
+
+    <a class="item" href="home-decor.html">
+        <img src="item1.jpg" alt="Home Decor">
+        <div class="item-title">Home Decor</div>
+    </a>
+
+    <a class="item" href="desk-accessories.html">
+        <img src="item2.jpg" alt="Desk Accessories">
+        <div class="item-title">Desk Accessories</div>
+    </a>
+
+    <a class="item" href="functional.html">
+        <img src="item3.jpg" alt="Functional Prints">
+        <div class="item-title">Functional Prints</div>
+    </a>
+
+    <a class="item" href="minimalist.html">
+        <img src="item4.jpg" alt="Minimalist Objects">
+        <div class="item-title">Minimalist Objects</div>
+    </a>
+
+    <a class="item" href="custom.html">
+        <img src="item5.jpg" alt="Custom Prints">
+        <div class="item-title">Custom Requests</div>
+    </a>
+
+</div>
+
+<h2>Featured Prints</h2>
 <div class="gallery">
 
     <a class="item" href="item1.html">
         <img src="item1.jpg" alt="Item 1">
-        <div class="item-title">Item 1</div>
+        <div class="item-title">Modern Vase</div>
     </a>
 
     <a class="item" href="item2.html">
         <img src="item2.jpg" alt="Item 2">
-        <div class="item-title">Item 2</div>
+        <div class="item-title">Desk Cable Holder</div>
     </a>
 
     <a class="item" href="item3.html">
         <img src="item3.jpg" alt="Item 3">
-        <div class="item-title">Item 3</div>
+        <div class="item-title">Minimalist Sculpture</div>
     </a>
 
     <a class="item" href="item4.html">
         <img src="item4.jpg" alt="Item 4">
-        <div class="item-title">Item 4</div>
-    </a>
-
-    <a class="item" href="item5.html">
-        <img src="item5.jpg" alt="Item 5">
-        <div class="item-title">Item 5</div>
-    </a>
-
-    <a class="item" href="item6.html">
-        <img src="item6.jpg" alt="Item 6">
-        <div class="item-title">Item 6</div>
+        <div class="item-title">Wall Hook Set</div>
     </a>
 
 </div>
